@@ -12,7 +12,7 @@ def funcao_injetora(x):
     return 2 * x
 
 conjunto_A = [1, 2, 3, 4]
-conjunto_B = list(map(funcao_injetora, conjunto_A))
+conjunto_B = list(map(funcao_injetora, conjunto_A)) 
 print(f"Conjunto de partida A: {conjunto_A}")
 print(f"Conjunto de chegada B: {conjunto_B}")
 
